@@ -1,0 +1,315 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+body{width: 100%;height:auto;}
+header{
+	height: 700px;background-image: url("https://spyre-theme.bitbucket.io/v1.1.2/assets/img/img-20.jpg");background-repeat: no-repeat;background-size: cover;}
+.navbar-brand{font-size: 16px;}
+.navbar{width: 100%;}
+.dropdown-menu .fas,.far,.fab{margin-right: 10px !important;color:lightgray;}
+
+.navbar-expand-lg+div{padding-top: 200px !important;max-width: 700px !important;margin-left: 22% !important;}
+/*--------------------------start:A beautiful premium Bootstrap 4 UI Kit.----------------------------------------*/
+.designedby{margin: 100px 0px 0px 50px;}
+a>img{width: 40px;height: 40px;border-radius: 50%;}
+/*---------------------------start:Impressive collection of elements----------------------------------------------*/
+.collection{height: 700px;background-color:#220c08;overflow: hidden;}
+.collection2 h1{font-weight: bold;font-size: 37px;}
+.collection2{margin: 50px 0px 0px 290px;}
+.collection2 p{width: 700px;font-size: 20px;margin-top: 15px;margin-left: 60px;}
+.collection2 small{font-size: 20px;}
+.collection2{margin: 50px 0px 0px 290px;}
+.collection div:nth-child(2)>img{width: 270px;height:525px;margin-top: 80px;/*transform: rotateY(30deg);*/}
+/*------------------------------------start:Basic Elements---------------------------------------------------------*/
+.BasicElements{height: 450px;}
+.BasicElements .row,.BasicElements .row div{height: 100%;}
+.BasicElements .row div:first-child{padding: 7% 0% 0% 10%}
+.BasicElements .row div:first-child p{width:75%;font-size: 18px;color: #9A9A9A;}
+.BasicElements .row div:first-child h6{color:#9A9A9A;font-size:14px; }
+.BasicElements .row div:first-child h2{font-weight:bold;font-size:37px;}
+.BasicElements .row div:nth-child(2) img{width: 90%;}
+.BasicElements .row div:nth-child(2) img:nth-child(2){width: 30%;height: 20%;position: absolute;top: 5%;right: 30%;border-radius:3%;
+animation-name: example;animation-duration: 5s;animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+.BasicElements .row div:nth-child(2) img:nth-child(3){width: 20%;border-radius:10px;position: absolute;top: 8.5%;left: -4%;overflow: hidden;
+animation-name: secimage;animation-duration: 10s;animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+.BasicElements .row div:nth-child(2) img:nth-child(4){width:40%;position: absolute;top: 30%;right: 0%;border-radius:3%;
+animation-name: thrimage;animation-duration: 3s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+.BasicElements .row div:nth-child(2) img:nth-child(5){width:24%;height:24%;position: absolute;top: 45%;left: -12%;border-radius:3%;
+animation-name: fourimage;animation-duration: 4s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+.BasicElements .row div:nth-child(2) img:nth-child(6){width:55%;position: absolute;bottom:-5%;left:-13%;animation-name: fiveimage;animation-duration: 5s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+.BasicElements .row div:nth-child(2) img:nth-child(7){width:15%;position: absolute;bottom:2%;right:25%;border-radius: 10px;
+animation-name: siximage;animation-duration: 4s;animation-iteration-count: infinite;animation-timing-function: ease-in-out;}
+@keyframes example {
+  0%{position: absolute;top: 5%;right: 30%;}
+  25%{position: absolute;top: 5%;right: 20%;}
+  50%{position: absolute;top: 5%;right: 30%;}
+  100%{position: absolute;top: 5%;right: 20%;}
+}
+@keyframes secimage{
+  0%{position: absolute;top: 8.5%;left:-4%;}
+  25%{position: absolute;top: 8.5%;left: 0%;}
+  50%{position: absolute;top: 8.5%;left:-4%;}
+  100%{position: absolute;top: 8.5%;left: 0%;}
+}
+@keyframes thrimage{
+	0%{position: absolute;top: 30%;right: 0%;}
+  25%{position: absolute;top: 30%;right: 3%;}
+  50%{position: absolute;top: 30%;right: 0%;}
+  100%{position: absolute;top: 30%;right: 3%;}
+}
+@keyframes fourimage{
+	 0%{position: absolute;top: 45%;left: -12%;}
+  25%{position: absolute;top: 45%;left: -6%}
+  50%{position: absolute;top: 45%;left: -12%}
+  100%{position: absolute;top: 45%;left: -6%}
+}
+@keyframes fiveimage{
+	 0%{position: absolute;left:-13%;bottom: -5%;}
+  25%{position: absolute;left: 0%;bottom: -5%;}
+  50%{position: absolute;left:-10%;bottom: -5%;}
+  100%{position: absolute;left: 0%;bottom: -5%;}
+}
+@keyframes siximage{
+	 0%{position: absolute;;bottom: 2%;right: 25%;}
+  25%{position: absolute;bottom: 2%;right: 20%;}
+  50%{position: absolute;bottom: 2%;right: 25%;}
+  100%{position: absolute;bottom: 2%;right: 20%;}
+}
+@media (min-width: 576px){
+	.BasicElements .row div:nth-child(2) img:nth-child(7){
+		width:15%;position: absolute;top: 71%;right:25%;border-radius: 10px;}
+	.BasicElements .row div:nth-child(2) img:nth-child(6) {
+    width: 55%;position: absolute;top:70%;left: -13%;}
+}
+@media (min-width:1000px){
+	.BasicElements .row div:nth-child(2) img:nth-child(6){width:55%;position: absolute;top: 90%;left:-13%;}
+	.BasicElements .row div:nth-child(2) img:nth-child(7){width:15%;position: absolute;top: 92%;right:25%;border-radius: 10px;}
+ }
+/*-------------------------------start:BeautifulCards-----------------------------------------------------*/
+.BeautifulCards{height: 550px;}
+.BeautifulCards h2,.ContentAreass .row div:nth-child(2) h2{font-weight: 700;letter-spacing:0.5px;font-family: 'Libre Franklin', sans-serif;}
+.BeautifulCards h6,.ContentAreass .row div:nth-child(2) h6{font-size: 12px;color:Gray;font-weight: bold;font-family: 'Libre Franklin', sans-serif;}
+.BeautifulCards p{width: 650px;color:#9A9A9A;font-family: 'Libre Franklin',' sans-serif';opacity: 0.7;margin-top: 30px;}
+/*---------------------------------start:.ContentAreas----------------------------------------------------*/
+.ContentAreas img:nth-child(5){width: 20%;float: left;position: absolute;top: -35%;left:20%;z-index:2;}
+.ContentAreas img:first-child{width: 13%;float:left;position:absolute;top:-140px;left: 12%;z-index: 1;border-radius:5px;}
+.ContentAreas img:nth-child(2){width: 18%;float:left;position:absolute;top:-170px;left: 23%;z-index: 2;border-radius:5px;}
+.ContentAreas img:nth-child(3){width: 20%;float:left;position:absolute;top:-200px;left:40%;z-index: 3;border-radius:5px;height: 410px;}
+.ContentAreas img:nth-child(4){width: 18%;float:left;position:absolute;top:-170px;left: 58%;z-index: 2;border-radius:5px;}
+.ContentAreas img:nth-child(5){width: 13%;float:left;position:absolute;top:-140px;left: 75%;z-index: 1;border-radius:5px;}
+.ContentAreas .row div:nth-child(2){height: 250px;width: 100%;background-color:#2c2c2c;clear: both;}
+/*----------------------------------------------start:ContentAreass--------------------------------------------------------------*/
+.ContentAreass{background-color: #2c2c2c;}
+.ContentAreass .row div:first-child{height: 500px;}
+.ContentAreass .row div:first-child img:first-child{width: 55%;height:80%;border-radius: 5px;position: absolute;left: 0px;z-index: 1;}
+.ContentAreass .row div:first-child img:nth-child(2){width: 55%;border-radius: 5px;position:absolute;left:28%;z-index:1;height: 90%;top: 20%;}/*top:20%*/
+
+.ContentAreass .row div:nth-child(2){padding: 5% 0% 0% 2%;}
+.ContentAreass .row div:nth-child(2) h2{color:white;}
+.ContentAreass .row div:nth-child(2) h6{color:white; }
+.ContentAreass .row div:nth-child(2) p{width: 53%;color:#9A9A9A;ont-family: 'Libre Franklin',' sans-serif';font-size:20px;line-height:normal;}
+/*-------------------------------start:youwilllove--------------------------------------------------*/
+.youwilllove{height:2290px;background-color:#ece7e7;overflow: hidden;padding-top:40px;}
+.youwilllove .row:first-child  div:first-child h2{font-family: 'Bree Serif', serif;font-family: 'Francois One', sans-serif;font-size: 35px;}
+.youwilllove .row:first-child div:first-child p{width: 600px;color:#9A9A9A;font-weight:300;font-size: 18px;}
+.youwilllove .row:first-child div:first-child button{background-color: #f96332;color: white;border-radius:20px;}
+
+.youwilllove .row:nth-child(2) div:first-child{width: 100%;height:200px;;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:first-child img{width: 24.2%;margin: 5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:first-child img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:first-child img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(2){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(2) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(2) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(2) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(3){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(3) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(3) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(3) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(4){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(4) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(4) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(4) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(5){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(5) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(5) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(5) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(6){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(6) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(6) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(6) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(7){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(7) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(7) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(7) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(8){width: 100%;height:200px;margin-top: 5px;margin-bottom: 10px;}
+.youwilllove .row:nth-child(2) div:nth-child(8) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(8) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(8) img:last-child{margin-right:0px;float:right;}
+
+.youwilllove .row:nth-child(2) div:nth-child(9){width: 100%;height:200px;margin-top: 5px;}
+.youwilllove .row:nth-child(2) div:nth-child(9) img{width: 24.2%;margin:5px;height: 100%;}
+.youwilllove .row:nth-child(2) div:nth-child(9) img:first-child{margin-left:0px;}
+.youwilllove .row:nth-child(2) div:nth-child(9) img:last-child{margin-right:0px;float:right;}
+.youwilllove .row:nth-child(2) div img:hover{transform: scale(1.03);transition: all 0.2s ease 0s;}
+.youwilllove button:hover{opacity: 0.8;}
+.youwilllove .row:nth-child(2)>img:first-of-type{width: 24.2%;margin:5px;height: 200px;position:absolute;top:400px;right: 20%;z-index: 1;}
+.youwilllove .row:nth-child(2)>img:nth-of-type(2){width: 24.2%;margin:5px;height: 200px;position:absolute;top:800px;left:50px;}
+.youwilllove .row:nth-child(2)>img:nth-of-type(3){width:24.2%;margin:5px;height: 200px;position:absolute;top:1200px;right:0px;margin-right: -50px;}
+/*-------------------------------------------start:Example Pages------------------------------------------*/
+.ExamplePages{background-color:#2c2c2c;height:350px;position: relative;} 
+.ExamplePages .row:first-child div:first-child{padding-top: 100px;}
+.ExamplePages .row:first-child div:first-child h2{font-size: 35px;color:#fff;font-weight:700}
+.ExamplePages .row:first-child div:first-child p{width: 600px;color:#9A9A9A;font-weight:300;font-size: 18px;margin-top:30px;}
+/*-----------------------------------------start:About Us---------------------------------------------------*/
+.AboutUs{background-color:#2c2c2c;width: 100%;height:3500px;position: relative;}
+.AboutUs .row:first-child .card{background-color:#2c2c2c;border:none;}
+.AboutUs .row:first-child .card h5{font-weight:bold;color:#fff;}
+.AboutUs .row:first-child .card:nth-of-type(4){position:absolute;top:800px;right: 14px;}
+.AboutUs .row:first-child .card:nth-of-type(5){position:absolute;top:1450px;left: 0px;}
+.AboutUs .row:first-child .card:nth-of-type(6){position:absolute;top:1500px;left:33.6%;}
+.AboutUs .row:first-child .card:nth-of-type(7){position:absolute;top:1850px;right: 14px;}
+.AboutUs .row:first-child .card:nth-of-type(8){position:absolute;top:2620px;left: 0px;}
+.AboutUs .row:first-child .card:nth-of-type(9){position:absolute;top:2920px;left: 0px;}
+.AboutUs .row:first-child .card:nth-of-type(10){position:absolute;top:2800px;left:33.6%;}
+.AboutUs .row:first-child .card:nth-of-type(11){position:absolute;top:2850px;right:14px;}
+/*-------------------------------------------start:Free Demo---------------------------------------*/
+.Free{height:800px;position: relative;overflow: hidden;}
+.Demo {height:100%;}
+.Free .Demo div:first-child{padding-left:10%;padding-top:3%;}
+.Free .Demo div:first-child h2{font-size: 35px;font-weight: 700;}
+.Free .Demo div:first-child p{width:570px;color: #9A9A9A;font-weight: 300;font-size: 19px;}
+.dddiv .btn:first-of-type{background-color:#f96332;font-size: 14px;border-radius:25px;color: white;}
+.dddiv .btn:nth-of-type(2){font-size: 14px;background-color:#f1f3f3;border:1px solid lightgray;height: 31px;}
+.fa-star{font-size:12px;}
+.bubble {-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;width: 40px;height: 25px;position: relative;border: none;-webkit-border-radius: 10px;border-radius: 5px;font: normal 100%/normal Arial, Helvetica, sans-serif;font-size: 13px;color: rgba(0,0,0,1);-o-text-overflow: clip;text-overflow: clip;background-color:#f1f3f3;border:1px solid silver;}
+.bubble::before {-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;width: 0;height: 0;position: absolute;
+  content: "";top: 10px;right: 100%;border: 7px solid rgba(0,0,0,0);border-right: 10px solid #f1f3f3;border-left: 0 solid;font: normal 100%/normal Arial, Helvetica, sans-serif;color: rgba(0,0,0,1);-o-text-overflow: clip;text-overflow: clip;text-shadow: none;background-color: white;}
+#btn2{font-size: 14px;background-color:#f1f3f3;border:1px solid lightgray;height: 31px;}
+.github img{opacity:0.1;}
+.card1{position: absolute;/*right:60%;top:10%;*/left:0%;top: 10%;color:white;background-image:url("https://demos.creative-tim.com/marketplace/now-ui-kit-pro/assets/img/bg27.jpg");}
+.list-group-flush .list-group-item {position: relative;display: block;padding: .75rem 1.25rem;margin-bottom: -1px;border: 1px solid #fff;background-size:cover;color:#fff;background:transparent;}
+.fa-times{font-size:12px;}
+.card2{position: absolute;left: 49%;bottom:28.2%;background-image:url("https://demos.creative-tim.com/marketplace/now-ui-kit-pro/assets/img/bg28.jpg");color:white;}
+.fa-check{font-size:20px;}
+/*-------------------------------------------start:Free Demo---------------------------------------*/
+.Icons{background-color: #777777;height:500px;overflow: hidden;}
+.Icons .row div:first-child h2{font-size: 40px;font-weight: 700;}
+.Icons .row div:first-child p{width:530px;color: #9A9A9A;font-weight: 300;font-size: 19px;color:#d0c8c8;letter-spacing:1px;}
+.Icons .row div:first-child button:first-of-type{border-radius:20px;background:#f96332;}
+.Icons .row div:first-child button:nth-of-type(2){border-radius:20px;background:#a09a9a;}
+.fa-plane{position: absolute;top:2%;left:10%;font-size:40px;}
+.fa-music{position:absolute;left:2%;top:20%;font-size:40px;}
+.fa-headphones{position:absolute;left:12%;top:27%;font-size:40px;}
+.fa-smile{position:absolute;left:20%;top:20%;font-size:50px;}
+.fa-apple-alt{position:absolute;left:26%;top:35%;font-size:50px;}
+.fa-heart{position:absolute;left:20%;bottom:25%;font-size:50px;}
+.fa-thumbs-up{position:absolute;left:10%;bottom: 5%;font-size: 50px;}
+.fa-globe-americas{position:absolute;left:2%;bottom:20%;font-size:40px;}
+.fa-paper-plane{position:absolute;left:12%;bottom:32%;font-size:40px;}
+.fa-american-sign-language-interpreting{position:absolute;left:6%;bottom:45%;font-size:40px;}
+
+
+
+
+.fa-grin-hearts{position:absolute;right: 10%;top:2%;font-size: 40px;}
+.fa-angellist{position:absolute;right: 20%;top:40%;font-size: 40px;}
+.fa-award{position:absolute;right: 10%;bottom:2%;font-size: 40px;}
+.fa-bowling-ball{position:absolute;right: 1%;bottom:50%;font-size: 40px;}
+.fa-birthday-cake{position:absolute;right: 10%;bottom:40%;font-size: 40px;}
+.fa-camera{position:absolute;right: 8%;top:30%;font-size: 40px;}
+.fa-smile-wink{position:absolute;right: 20%;bottom:20%;font-size: 40px;color: yellow}
+/*--------------------------------sts=art:Savetime--------------------------------------------------------*/
+.Savetime{background-color:#2c2c2c;height: 750px;background-size:cover;}
+.Savetime .row div:first-child .card{background-color:transparent;border:none;margin-left:100px;}
+.Savetime .row div:first-child .card p{color:#9A9A9A;font-size: 18px;width:350px;}
+.Savetime .row div:nth-child(2){overflow: hidden;}
+.Savetime .row div:nth-child(2) img{margin-top:15%;margin-right:-350px;height: 55%;}
+/*--------------------------------start:carouselperson--------------------------------------------------------*/
+.bd-example{margin-top: 20px;background-color:#2c2c2c;}
+.carousel-item{width:50%;}
+.carousel-item img{border-radius:50%;}
+.carousel-item p{width:550px;margin: auto;font-size:19px;color:#9a9a9a;}
+.carousel-item h5{font-family: 'Bree Serif', serif;font-family: 'Francois One', sans-serif}
+.carousel-item h6{color:#6c757d;font-family: 'Libre Franklin', sans-serif;font-size: 12px;font-weight:bold;}
+.carousel-item .fa-star{color:#ffc107;font-size:10px;}
+.vodavone img{width:150px;height:50px;margin-right:50px;margin-top: 15%;}
+.vodavone{height:300px;}
+.header{background-color:#2c2c2c;}
+.header .navbar-expand-lg{margin-left:100px;background-color: #2c2c2c !important;}
+.header a{font-size:14px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+
+ }   
+ 
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
